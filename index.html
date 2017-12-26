@@ -46,7 +46,7 @@
                 <br>
 
             </section>
-            <!-- SLIDE 2 -->
+            <!-- SLIDE 3 -->
 
             <section>
                 <section>
@@ -79,30 +79,58 @@
 
                 </section>
             </section>
-            <!-- SLIDE 2 -->
+            <section>
+                <h3>
+                    w3schools</h3>
+                <br>
+                <p> <a target="_blank" HREF="http://www.w3schools.com">w3schools.com</a> is an online resourse for web developers. The website covers html, css, javascript, DOM and much more!</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rNJBK5UGQ1A?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </section>
+            <!-- SLIDE 4 -->
             <section>
                 <h3>HTML</h3>
                 <section>
-                    <br>
-                    <p>What is HTML</p>
-                    <li>Hypertext Markup Language</li>
-                    <li>HTML use characters "
-                        < " and ">" to open a tag and "</ " ">' to close a tag</li>
-                    <li>For example "
-                        <p></p>" </li>
+
+                    <h3>What is HTML</h3>
+                    <ul>
+                        <li>Hypertext Markup Language</li>
+                        <li>HTML use characters "
+                            < "  ">" to open a tag and "
+                                < / " ">" to close a tag</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>What is an element in HTML?</h4>
+                    <p>An element or element tag is a/an ...</p>
+                    <ol>
+                        <li>
+                            <<strong>title</strong> ></li>
+                        <li>
+                            <<strong>header</strong> ></li>
+                        <li>
+                            <<strong>p</strong> ></li>
+                        <li>
+                            <<strong>body</strong> ></li>
+                        <li> etc...</li>
+
+                    </ol>
+                    <p>Web pages are formed by many types of elements. Linked <a target="_blank" HREF="https://www.w3schools.com/TAgs/">here</a> is a list of element tags. Practice using the tags in your <a target="_blank" HREF="http://www.codepen.io/">Code Pen</a>                        to test them out. </p>
                 </section>
 
                 <section>
-                    <p>Most of your coding will take place in between "Tags". The most common tags you will see are "head" and "body". Majority of your code will take place in the body tag</p>
+                    <p>Most of your coding will take place in between an " element". The most common elements you will see are "head" and "body". Majority of your code will take place in the "
+                        < <strong>body</strong> >" tag</p>
                     <pre><code class="hljs" data-trim contenteditable>
+                        
                                     <head></head>
-                                    <body></body>		
+                                    <body>asdfasdf</body>		
                                     </code></pre>
-
+                    </code>
+                    </pre>
                 </section>
                 <!-- VERT SLIDE 1 -->
                 <section>
-                    <span>tags</span>
+                    <span></span>
                     <h1>H1 Tag Title</h1>
                     <h2>H2 Tag Title</h2>
                     <h3>H3 Tag Title</h3>
@@ -117,13 +145,25 @@
 
                 <section>
                     <p>Use your Code Pen and do the following instructions </p>
-                    <li>Using the 'h1' tag write "The Universe is BIG</li>
-                    <li> Using the 'p' tag write "We live on called the planet Earth located in the Milky Way"</li>
-                    <li>Using the 'li' write names of our planets </li>
+                    <ul>
+                        <li>Using the 'h1' tag write "The Universe is BIG</li>
+                        <li> Using the 'p' tag write "We live on called the planet Earth located in the Milky Way"</li>
+                        <li>Using the 'li' write names of our planets </li>
+                    </ul>
                 </section>
                 <!-- VERT SLIDE 2 -->
-                <section>
-                    <p>elements</p>
+
+
+                <section data-markdown>
+                    <h3>Attribute</h3>
+                    <h4>What is an attribute?</h4>
+                    <p>An attribute lives inside the element. The Attribute will also have a value </p>
+                    <textarea data-template>
+                            ## Page title
+                    
+                            A paragraph with some text and a [link](http://hakim.se).
+                        </textarea>
+
                 </section>
                 <!-- VERT SLIDE 3 -->
                 <section>
@@ -157,10 +197,51 @@
             <section>
                 <h3> CSS </h3>
                 <section>
+                    <br>
                     <h3> What is CSS? </h3>
                     <p>Cascading Style Sheets</p>
                     <p>CSS allows us to style specific tags or ids</p>
                 </section>
+                <section>
+                    <p>HTML use a style tag, where you can style elements in the beginning of of the HTML document </p>
+                </section>
+
+                <section>
+                    <br>
+
+                    <code class="hljs" data-trim contenteditable>     
+                        <!--
+                                    <body style = "color: red;">
+                                    This will be red text    
+                                    </body>
+                                    
+                                -->
+                            </code>
+                </section>
+                <section>
+                    <p>Secondly, you can stly directly in the tag. As seen below.</p>
+                </section>
+                <section>
+
+                    <pre><code class="hljs" data-trim contenteditable>
+                                <!--	<!DOCTYPE html>
+                                    <html lang="en">
+                                  <style>
+                                      body {
+                                          color: red;
+                                      }
+
+                                  </style>
+                                    
+                                    <body>
+                                        
+                                    </body>
+                                    </html>
+                                -->
+                            </code>
+                    </section>
+
+
                 <section>
                     <h1> Example of CSS</h1>
                     <p>As you can see in Code Pen there three sheets call html, css and javascript. It is here in the CSS text area is where will be doing most of out styling.</p>
@@ -169,7 +250,7 @@
 
                 </section>
 
-                <section>
+                <section data-markdown>
                     <p> Below we change the color of the web page by using css. First we will write the tag we would like to grab which is "body". Then will write code in between the open and closed curl brackets </p>
                     <pre><code class="hljs" data-trim contenteditable>
                                
@@ -193,6 +274,13 @@
                 <h3> Javascript </h3>
 
                 <section>
+                    <br />
+                <h4>What is Javascript</h4> 
+                <quote>"JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code." - mdn.org</quote>   
+                
+                </section>
+
+                <section>
                         Now that have you completed the Javascript precourse section try to take the
                             <a target="_blank" HREF="https://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript">quiz </a> at w3schools to solidify your learning. 
                 </section>
@@ -208,18 +296,6 @@
             <!-- SLIDE 6 -->
             <section>
                 <h1> Project </h1>
-
-            </section>
-
-            <!-- SLIDE 7 -->
-            <section>
-                <h1> Assessment </h1>
-
-            </section>
-
-            <!-- SLIDE 8 -->
-            <section>
-                <h1> party </h1>
 
             </section>
 
