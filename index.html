@@ -83,7 +83,8 @@
                 <h3>
                     w3schools</h3>
                 <br>
-                <p> <a target="_blank" HREF="http://www.w3schools.com">w3schools.com</a> is an online resourse for web developers. The website covers html, css, javascript, DOM and much more!</p>
+                <p>
+                    <a target="_blank" HREF="http://www.w3schools.com">w3schools.com</a> is an online resourse for web developers. The website covers html, css, javascript, DOM and much more!</p>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/rNJBK5UGQ1A?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </section>
             <!-- SLIDE 4 -->
@@ -91,10 +92,12 @@
                 <h3>HTML</h3>
                 <section>
 
-                    <h3>What is HTML</h3>
+                    <h3>What is HTML?</h3>
                     <ul>
                         <li>Hypertext Markup Language</li>
-                        <li>HTML use characters "
+                        <li> HTML is a Language, as it has code-words and syntax like other languages</li>
+                        <li> HTML files are created with the extenstsion .html (index.html)</li>
+                        <li>HTML uses tags. For example "
                             < "  ">" to open a tag and "
                                 < / " ">" to close a tag</li>
                     </ul>
@@ -114,17 +117,24 @@
                         <li> etc...</li>
 
                     </ol>
-                    <p>Web pages are formed by many types of elements. Linked <a target="_blank" HREF="https://www.w3schools.com/TAgs/">here</a> is a list of element tags. Practice using the tags in your <a target="_blank" HREF="http://www.codepen.io/">Code Pen</a>                        to test them out. </p>
+                    <p>Web pages are formed by many types of elements. Linked
+                        <a target="_blank" HREF="https://www.w3schools.com/TAgs/">here</a> is a list of element tags. Practice using the tags in your
+                        <a target="_blank" HREF="http://www.codepen.io/">Code Pen</a> to test them out. </p>
                 </section>
 
                 <section>
                     <p>Most of your coding will take place in between an " element". The most common elements you will see are "head" and "body". Majority of your code will take place in the "
                         < <strong>body</strong> >" tag</p>
                     <pre><code class="hljs" data-trim contenteditable>
-                        
+                        <!--
                                     <head></head>
-                                    <body>asdfasdf</body>		
-                                    </code></pre>
+                                    <body>
+                                    
+                                    <h1> This is the main header </h1>
+                                    <p> This is where I write my main content </p>
+                                    
+                                    </body>		
+                                     -->
                     </code>
                     </pre>
                 </section>
@@ -146,25 +156,30 @@
                 <section>
                     <p>Use your Code Pen and do the following instructions </p>
                     <ul>
-                        <li>Using the 'h1' tag write "The Universe is BIG</li>
-                        <li> Using the 'p' tag write "We live on called the planet Earth located in the Milky Way"</li>
-                        <li>Using the 'li' write names of our planets </li>
+                        <li class="fragment">Using the 'h1' tag write "The Universe is BIG</li>
+                        <li class="fragment"> Using the 'p' tag write "We live on called the planet Earth located in the Milky Way"</li>
+                        <li class="fragment">Using the 'li' write names of our planets </li>
                     </ul>
                 </section>
                 <!-- VERT SLIDE 2 -->
-
-
-                <section data-markdown>
+                <section>
+                    <br>
                     <h3>Attribute</h3>
                     <h4>What is an attribute?</h4>
-                    <p>An attribute lives inside the element. The Attribute will also have a value </p>
-                    <textarea data-template>
-                            ## Page title
-                    
-                            A paragraph with some text and a [link](http://hakim.se).
-                        </textarea>
-
+                    <p class="fragment">An attribute lives inside the element. The Attribute will also have a value </p>
+                    <pre><code class="hljs" data-trim contenteditable>
+                            <!--
+                                <p attribute ="value"> The attribute lives inside the open p tag  </p>	
+                                         -->
+                        </code>
+                        </pre>
                 </section>
+                <section>
+                    <h4>Here is an example of multiple attributes </h4>
+                </section>
+
+
+
                 <!-- VERT SLIDE 3 -->
                 <section>
                     <br>
@@ -199,8 +214,8 @@
                 <section>
                     <br>
                     <h3> What is CSS? </h3>
-                    <p>Cascading Style Sheets</p>
-                    <p>CSS allows us to style specific tags or ids</p>
+                    <p class="fragment">Cascading Style Sheets</p>
+                    <p class="fragment">CSS allows us to style specific class, tags or ids</p>
                 </section>
                 <section>
                     <p>HTML use a style tag, where you can style elements in the beginning of of the HTML document </p>
@@ -209,14 +224,14 @@
                 <section>
                     <br>
 
-                    <code class="hljs" data-trim contenteditable>     
+                    <code class="hljs" data-trim contenteditable>
                         <!--
                                     <body style = "color: red;">
                                     This will be red text    
                                     </body>
                                     
                                 -->
-                            </code>
+                    </code>
                 </section>
                 <section>
                     <p>Secondly, you can stly directly in the tag. As seen below.</p>
