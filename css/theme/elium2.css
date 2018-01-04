@@ -23,7 +23,7 @@ html * {
 body {
     background: #fff;
     /*background-color: #fff; */
-    background-image: url('/img/slide.jpg');
+    background-image: url('/img/slide.png');
     background-repeat: no-repeat;
     background-size: 94%;
     background-position: top right;
@@ -34,7 +34,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 40px;
     font-weight: normal;
-    color: #npm797d7d;
+    color: #797d7d;
 }
 
 ::selection {
