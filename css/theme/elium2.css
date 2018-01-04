@@ -21,8 +21,8 @@ html * {
   *********************************************/
 
 body {
-    background: #fff;
-    /*background-color: #fff; */
+    /* background: #fff;
+    background-color: #fff; */
     background-image: url('/img/slide.png');
     background-repeat: no-repeat;
     background-size: 94%;
