@@ -23,7 +23,7 @@ section.has-dark-background h6 {
 body {
     background: #fff;
     /*background-color: #fff; */
-    background-image: url('/img/slide.png');
+    background-image: url('./img/slide.png');
     background-repeat: no-repeat;
     background-size: 94%;
     background-position: top right;
